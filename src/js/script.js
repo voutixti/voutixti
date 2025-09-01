@@ -46,7 +46,7 @@ form.addEventListener('submit', function(e) {
     mensagem += `, ${duvida}`;
   }
 
-  const numeroWhatsApp = "5511949409834"; // substitua pelo seu número
+  const numeroWhatsApp = "5511969771933"; // substitua pelo seu número
   const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
 
   window.open(url, '_blank');
